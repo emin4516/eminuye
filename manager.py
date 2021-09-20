@@ -146,7 +146,7 @@ while True:
         print(f'\n{lg}[i] Yeniləmələr yoxlanılır...')
         try:
             # https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt')
+            version = requests.get('https://raw.githubusercontent.com/emin4516/eminuye/main/version.txt')
         except:
             print(f'{r} İnternetə bağlı deyilsiniz')
             print(f'{r} Zəhmət olmasa internetə qoşulun və yenidən cəhd edin')
@@ -162,8 +162,8 @@ while True:
                     os.system('rm add.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Cryptonian007/Astra/main/add.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Cryptonian007/Astra/main/manager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/emin4516/eminuye/main/add.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/emin4516/eminuye/main/manager.py')
                 print(f'{lg}[*] Updated to version: {version.text}')
                 input('Çıxmaq üçün enter düyməsini basın...')
                 exit()
