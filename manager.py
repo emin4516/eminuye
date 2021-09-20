@@ -168,7 +168,7 @@ while True:
                 input('Çıxmaq üçün enter düyməsini basın...')
                 exit()
             else:
-                print(f'{lg}[!] Güncəlləmə ləğv edildi.')
+                print(f'{lg}[!] Güncəlləmə ləğv hahahah edildi.')
                 input('Əsas menyuya keçmək üçün enter düyməsini basın...')
         else:
             print(f'{lg}[i] Versiya artıq yenidir')
