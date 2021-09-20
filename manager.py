@@ -164,7 +164,7 @@ while True:
                 #os.system('del scraper.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/emin4516/eminuye/main/add.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/emin4516/eminuye/main/manager.py')
-                print(f'{lg}[*] Updated to version: {version.text}')
+                print(f'{lg}[*] Versiyasına yeniləndi: {version.text}')
                 input('Çıxmaq üçün enter düyməsini basın...')
                 exit()
             else:
