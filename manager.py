@@ -145,7 +145,7 @@ while True:
         # thanks to github.com/th3unkn0n for the snippet below
         print(f'\n{lg}[i] Yeniləmələr yoxlanılır...')
         try:
-            # https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt
+            # https://raw.githubusercontent.com/emin4516/eminuye/main/version.txt
             version = requests.get('https://raw.githubusercontent.com/emin4516/eminuye/main/version.txt')
         except:
             print(f'{r} İnternetə bağlı deyilsiniz')
