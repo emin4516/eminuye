@@ -152,8 +152,8 @@ while True:
             print(f'{r} Zəhmət olmasa internetə qoşulun və yenidən cəhd edin')
             exit()
         if float(version.text) > 1.1:
-            prompt = str(input(f'{lg}[~] Yeniləmə mövcuddur[Versiya {version.text}]. Yüklənsin?[y/n]: {r}'))
-            if prompt == 'y' or prompt == 'yes' or prompt == 'Y':
+            prompt = str(input(f'{lg}[~] Yeniləmə mövcuddur[Versiya {version.text}]. Yüklənsin?[h/y]: {r}'))
+            if prompt == 'h' or prompt == 'yes' or prompt == 'h':
                 print(f'{lg}[i] Yeniləmələr endirilir...')
                 if os.name == 'nt':
                     os.system('del add.py')
@@ -168,7 +168,7 @@ while True:
                 input('Çıxmaq üçün enter düyməsini basın...')
                 exit()
             else:
-                print(f'{lg}[!] Güncəlləmə ləğv hahahah edildi.')
+                print(f'{lg}[!] Güncəlləmə ləğv edildi.')
                 input('Əsas menyuya keçmək üçün enter düyməsini basın...')
         else:
             print(f'{lg}[i] Versiya artıq yenidir')
